@@ -7,6 +7,7 @@ You might be asking why didn't I put Mass DM as a command since that is such a r
 #Steps
 I. **Create a Discord Bot**
 ```Acess ```[this website](https://discordapp.com/developers/applications/)```, create a Discord Bot and copy the Token given```
+
 website: ```https://discordapp.com/developers/applications/```
 
 II. **Install Python 3.6+**

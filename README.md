@@ -7,6 +7,7 @@ You might be asking why didn't I put Mass DM as a command since that is such a r
 # Steps
 
 I. **Create a Discord Bot**
+
 ```Acess ```[this website](https://discordapp.com/developers/applications/)```, create a Discord Bot and copy the Token given```
 
 website: ```https://discordapp.com/developers/applications/```
@@ -14,6 +15,7 @@ website: ```https://discordapp.com/developers/applications/```
 II. **Install Python 3.6+**
 
 III. **Install dependencies**
+
 ```Run this command in terminal (e.g CMD): pip install -U -r requirements.txt```
 
 IV. **Open config.json and edit**
@@ -25,12 +27,15 @@ IV. **Open config.json and edit**
 ```In "exploit_users" you can replace 000000000000000000 with your ID and add as many as you want.```
 
 V. **Start Script**
+
 ```Run Start.bat or execute h43.py with python```
 
 VI. **Paste the token in the terminal**
+
 ```You can skip this step if you wrote the token inside the config.json```
 
 VII. **Check Help for commands**
+
 ```If you write H43?help in bot's DM or in a server where the bot is, it will DM you with the help (commands)```
 
 ## Remember:

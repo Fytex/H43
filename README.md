@@ -23,7 +23,9 @@ IV. **Open config.json and edit**
 V. **Start Script**
 ```Run Start.bat or execute h43.py with python```
 
-VI. **Check Help for commands**
+VI. **Paste the token in the terminal**
+
+VII. **Check Help for commands**
 ```If you write H43?help in bot's DM or in a server where the bot is, it will DM you with the help (commands)```
 
 ## Remember:

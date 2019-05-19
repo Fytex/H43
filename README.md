@@ -4,7 +4,8 @@ I started this project thinking about fun tools to make to prank my friends alth
 I know people might use this for bad purposes but that's not my fault, I only have the intention to share my project with you. The ones that must be careful are the server's owners.
 You might be asking why didn't I put Mass DM as a command since that is such a recognized one. The answer is obvious... This wasn't made to annoy everyone in a server but to "prank" a friend's server....
 
-#Steps
+# Steps
+
 I. **Create a Discord Bot**
 ```Acess ```[this website](https://discordapp.com/developers/applications/)```, create a Discord Bot and copy the Token given```
 

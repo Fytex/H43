@@ -38,10 +38,14 @@ VII. **Check Help for commands**
 
 ```If you write H43?help in bot's DM or in a server where the bot is, it will DM you with the help (commands)```
 
-## Remember:
+## Warnings:
 Use this at your own risk. Your bot can be banned and user too.
 
 Please don't try to destroy people lives... 
 For last, have fun!
+
+## Donate
+I would appreciate very much if you could donate something.
+My paypal is:
 
 

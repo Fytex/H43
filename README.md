@@ -24,7 +24,7 @@ IV. **Open config.json and edit**
 
 ```In "cooldown_bypass" you can either set true or false (lower case). There is a cooldown in each command so you don't abuse them thinking it didn't work. If you want u can replace the false by true anytime you want.```
 
-```In "exploit_users" you can replace 000000000000000000 with your ID and add as many as you want.```
+```In "exploit_users" you can replace 000000000000000000 with your ID and add as many as you want. These exploit_users are the users that have acess to your bot's commands```
 
 V. **Start Script**
 

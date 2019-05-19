@@ -17,6 +17,7 @@ III. **Install dependencies**
 ```Run this command in terminal (e.g CMD): pip install -U -r requirements.txt```
 
 IV. **Open config.json and edit**
+```In "token" you can either write the token or write null or even "" (default) if you don't want to write the token inside the file (you will have to write it when you start the bot)```
 ```In "cooldown_bypass" you can either set true or false (lower case). There is a cooldown in each command so you don't abuse them thinking it didn't work. If you want u can replace the false by true anytime you want.```
 ```In "exploit_users" you can replace 000000000000000000 with your ID and add as many as you want.```
 
@@ -24,6 +25,7 @@ V. **Start Script**
 ```Run Start.bat or execute h43.py with python```
 
 VI. **Paste the token in the terminal**
+```You can skip this step if you wrote the token inside the config.json```
 
 VII. **Check Help for commands**
 ```If you write H43?help in bot's DM or in a server where the bot is, it will DM you with the help (commands)```

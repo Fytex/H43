@@ -6,6 +6,7 @@ You might be asking why didn't I put Mass DM as a command since that is such a r
 
 #Steps
 I. **Create a Discord Bot**
+[Here](https://discordapp.com/developers/applications/)[Herea]
 ```Acess [Here](https://discordapp.com/developers/applications/)[Herea], create a Discord Bot and copy the Token given```
 
 II. **Install Python 3.6+**

@@ -1,4 +1,4 @@
-## **H43**
+## H43
 
 I started this project thinking about fun tools to make to prank my friends although this looks like a devil's one.
 

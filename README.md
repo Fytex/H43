@@ -1,8 +1,14 @@
 ## H43
 
 I started this project thinking about fun tools to make to prank my friends although this looks like a devil's one.
+
 I know people might use this for bad purposes but that's not my fault, I only have the intention to share my project with you. The ones that must be careful are the server's owners.
-You might be asking why didn't I put Mass DM as a command since that is such a recognized one. The answer is obvious... This wasn't made to annoy everyone in a server but to "prank" friend's server....
+
+You might be asking why I didn't put Mass DM as a command since that is such a recognized one. The answer is obvious... This wasn't made to annoy everyone in a server but to "prank" friend's server....
+
+If you want you can give me feedback for me to improve. One of the reasons I built this was to learn programming (the other reason is above xD)
+
+**Please read the last part at least if you want to skip the steps** 
 
 # Steps
 

@@ -61,6 +61,7 @@ My paypal is: https://paypal.me/h43bot
 ## Info
 
 Bot Creator: Fytex#4389     ID: 321346463148015626
+
 Art Creator: AmânDIOOO#7771 ID: 253679155651018764        www.instagram.com/amskun/
 
 

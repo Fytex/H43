@@ -53,6 +53,6 @@ For last, have fun!
 ## Donate
 I would appreciate very much if you could donate something.
 
-My paypal is:
+My paypal is: https://paypal.me/h43bot
 
 

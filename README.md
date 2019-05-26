@@ -6,7 +6,7 @@ I know people might use this for bad purposes but that's not my fault, I only ha
 
 You might be asking why I didn't put Mass DM as a command since that is such a recognized one. The answer is obvious... This wasn't made to annoy everyone in a server but to "prank" friend's server....
 
-If you want you can give me feedback for me to improve. One of the reasons I built this was to learn programming (the other reason is above xD)
+If you want you can give me feedback for me to improve. One of the reasons I built this was to learn programming (the other reason is above xD). When I have time I'll try to make this code better :D
 
 **Please read the last part at least if you want to skip the steps** 
 

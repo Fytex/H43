@@ -23,6 +23,7 @@ II. **Install Python 3.6+**
 III. **Install dependencies**
 
 ```Run this command in terminal (e.g CMD): pip install -U discord.py```
+```If error shows up try: python -m pip install -U discord.py```
 
 IV. **Open config.json and edit**
 

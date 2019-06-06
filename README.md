@@ -26,7 +26,7 @@ III. **Install dependencies**
 ```If error shows up try: python -m pip install -U discord.py```
 ```If still show the same error ('command not recognized') u need to add python to your system variable```
 
-IV. **Open config.json and edit**
+IV. **Open config.json and edit** (Maybe notepadd++)
 
 ```In "exploit_users" you can replace 000000000000000000 with your ID and add as many as you want. These exploit_users are the users that have acess to your bot's commands```
 
@@ -34,7 +34,7 @@ IV. **Open config.json and edit**
 
 ```In "offline_mode" you can either set true or false (lower case). Even if you set it to true it wont change bot's status if another instance of the bot is running. It will only not make bot's status online.```
 
-```In "token" you can either write the token (inside quotation marks, e.g "your_token_here") or write null or even "" (default) if you don't want to write the token inside the file (you will have to write it when you start the bot)```
+```In "token" you can either write the token (inside quotation marks, e.g "your_token_here") or write null or even "" (default) if you don't want to write the token inside the file you can write it when the bot starts up however, you will have to paste in terminal everytime you start the bot```
 
 
 V. **Start Script**

@@ -28,7 +28,7 @@ III. **Install dependencies**
 
 IV. **Open config.json and edit** (Maybe notepadd++)
 
-```In "exploit_users" you must replace 000000000000000000 with your ID and add as many as you want. These exploit_users are the users that have acess to your bot's commands. Note: You need to enable Developer mode!```
+```In "exploit_users" you must replace 000000000000000000 with your ID and add as many as you want. These exploit_users are the users that have acess to your bot's commands. Note: You need to enable Developer mode! Note: You need to remove all 0's numbers. All ID's must be followed by a comma (,) except the last one```
 
 ```In "cooldown_bypass" you can either set true or false (lower case). There is a cooldown in each command so you don't abuse them thinking it didn't work. If you want u can replace the false by true anytime you want.```
 

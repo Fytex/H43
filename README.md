@@ -10,6 +10,26 @@ If you want you can give me feedback for me to improve. One of the reasons I bui
 
 **Please read the last part at least if you want to skip the steps** 
 
+# What does this BOT do?
+**Destruction**
+Deletes all roles/channels
+Kicks/Bans Members
+Edit Overview
+
+**Spam**
+Spams Roles/Channels
+Edit Overview
+
+**Invites**
+Invites Server's Bot is in and unbans you from them
+
+**OP**
+Give yourself the best role (Maybe administrator)
+
+**DEOP**
+Remove all possible roles (permissions) form a member in a server
+
+
 # Steps
 
 I. **Create a Discord Bot**

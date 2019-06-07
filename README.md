@@ -45,6 +45,10 @@ VI. **Paste the token in the terminal**
 
 ```You can skip this step if you wrote the token inside the config.json```
 
+VII. **Invite the Bot to the server (Persuade them to invite your bot)
+
+````https://discordapp.com/oauth2/authorize?client_id=ID&permissions=8    -  If you think people never add bots that has permission 8 (administrator) just change it to another number that has the same permissions (e.g Administrator + every other = Administrator n.º = 2146958847)```
+
 VII. **Check Help for commands**
 
 ```If you write H43?help in bot's DM or in a server where the bot is, it will DM you with the help (commands)```

@@ -5,7 +5,7 @@ bot_creator_id = 321346463148015626
 art_creator_id = 253679155651018764
 paypal_link = 'https://paypal.me/h43'
 github_link = 'https://github.com/Fytex/H43'
-discord_link = 'https://discord.gg/aA4Fjev'
+discord_link = 'https://discord.gg/hNGAWVH'
 
 
 class HelpCommand(commands.MinimalHelpCommand):

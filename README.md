@@ -84,10 +84,12 @@ Use this at your own risk. Your bot can be banned and user too.
 Please don't try to destroy people lives... 
 For last, have fun!
 
-## Donate
+## Donate / Help
 I would appreciate very much if you could donate something.
 
 My paypal is: https://paypal.me/h43
+
+If you could at least give me a star :D
 
 ## Info
 

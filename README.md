@@ -1,6 +1,6 @@
 ## H43
 
-I started this project thinking about fun tools to prank my friends and as a way to gain more experience.
+I started this project back in 2018 (didn't change much since then xD, not enough time for it) thinking about fun tools to prank my friends and as a way to gain more experience.
 
 I know people might use this for bad purposes but that's not my fault, I only have the intention to share my project with you. The ones that must be careful are the servers' owners.
 

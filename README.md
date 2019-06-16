@@ -99,4 +99,8 @@ Art Creator: AmânDIOOO#7771 ID: 253679155651018764        www.instagram.com/ams
 
 Discord Server: https://discord.gg/hNGAWVH
 
+## Found any Errors?
+
+Join my discord sever (link is above) and let me know :D, or you could just write here but I won't pay attention too early xD
+
 

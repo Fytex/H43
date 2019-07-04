@@ -17,11 +17,14 @@ To prank your friend you will need to convince your friend to add the bot into h
 # What does this BOT do?
 **Destruction**
 Deletes all roles/channels
+
 Kicks/Bans Members
+
 Edit Overview
 
 **Spam**
 Spams Roles/Channels
+
 Edit Overview
 
 **Invites**

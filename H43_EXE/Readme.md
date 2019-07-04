@@ -6,7 +6,7 @@ Better use notepad++ so won't be no errors formating .json.
 
 Bot Creator: Fytex#4389 ID: 321346463148015626
 
-Art Creator: Am‚nDIOOO#7771 ID: 253679155651018764 www.instagram.com/amskun/
+Art Creator: Am√¢nDIOOO#7771 ID: 253679155651018764 www.instagram.com/amskun/
 
 Discord Server: https://discord.gg/hNGAWVH
 

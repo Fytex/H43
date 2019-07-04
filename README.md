@@ -36,21 +36,16 @@ Remove all possible roles (permissions) form a member in a server
 
 # Steps
 
+If you are on windows you can go to H43_EXE
+
 I. **Create a Discord Bot**
 
 ```Acess ```[this website](https://discordapp.com/developers/applications/)```, create a Discord Bot and copy the Token given```
 
 website: ```https://discordapp.com/developers/applications/```
 
-II. **Install Python 3.6+**
 
-III. **Install dependencies**
-
-```Run this command in terminal (e.g CMD): pip install -U discord.py```
-```If error shows up try: python -m pip install -U discord.py```
-```If still show the same error ('command not recognized') u need to add python to your system variable```
-
-IV. **Open config.json and edit** (Maybe notepadd++)
+II. **Open config.json and edit** (Maybe notepadd++)
 
 ```In "exploit_users" you must replace 000000000000000000 with your ID and add as many as you want. These exploit_users are the users that have acess to your bot's commands. Note: You need to enable Developer mode! Note: You need to remove all 0's numbers. All ID's must be followed by a comma (,) except the last one```
 
@@ -60,21 +55,18 @@ IV. **Open config.json and edit** (Maybe notepadd++)
 
 ```In "token" you can either write the token (inside quotation marks, e.g "your_token_here") or write null or even "" (default) if you don't want to write the token inside the file you can write it when the bot starts up however, you will have to paste in terminal everytime you start the bot```
 
+III. **Execute the script or executable depending on your OS**
 
-V. **Start Script**
-
-```Run Start.bat or execute h43.py with python```
-
-VI. **Paste the token in the terminal**
+IV. **Paste the token in the terminal**
 
 ```You can skip this step if you wrote the token inside the config.json```
 
-VII. **Invite the Bot to the server (Persuade them to invite your bot)**
+V. **Invite the Bot to the server (Persuade them to invite your bot)**
 
 ```https://discordapp.com/oauth2/authorize?client_id=ID&permissions=8       Change 'ID' for your BOT's ID and send the link to your friend```
 ```Note: If you think people never add bots that have permission n.º 8 (administrator) just change it to another number that has the same permissions (e.g Administrator + every other = Administrator, n.º 2146958847)```
 
-VII. **Check Help for commands**
+VI. **Check Help for commands**
 
 ```If you write H43?help in bot's DM or in a server where the bot is, it will DM you with the help (commands)```
 

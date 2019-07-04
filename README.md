@@ -36,7 +36,7 @@ Remove all possible roles (permissions) form a member in a server
 
 # Steps
 
-If you are on windows you can go to H43_EXE
+If you are on windows you can use H43_EXE instead of the source. But don't forget to read all of this or you will be lost.
 
 I. **Create a Discord Bot**
 

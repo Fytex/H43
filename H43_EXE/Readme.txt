@@ -18,7 +18,6 @@ DEOP (Remove all possible roles [permissions] form a member in a server)
 
 
 Steps
-If you are on windows you can use H43_EXE instead of the source. But don't forget to read all of this or you will be lost.
 
 I. Create a Discord Bot
 
@@ -71,6 +70,8 @@ Info
 Bot Creator: Fytex#4389 ID: 321346463148015626
 
 Art Creator: AmânDIOOO#7771 ID: 253679155651018764 www.instagram.com/amskun/
+
+Github (Source): https://github.com/fytex/h43
 
 Discord Server: https://discord.gg/hNGAWVH
 

@@ -27,7 +27,7 @@ website: https://discordapp.com/developers/applications/
 
 II. Open config.ini and edit it
 
-In "Users" you can add as many as you want following the same format written. (Note: Name doesn't matter only ID next to it). These exploit_users are the users that have acess to your bot's commands. Note: You need to enable Developer mode!
+In "Users" you can add as many as you want following the same format written. (Note: Name doesn't matter only ID next to it). These exploit_users are the users that have acess to your bot's commands. Note: You need to enable Developer mode to get the users' ID!
 In "CooldownBypass" you can either set true or false. There is a cooldown in each command so you don't abuse them thinking it didn't work. If you want u can replace the false by true anytime you want.
 In "OfflineMode" you can either set true or false. Even if you set it to true it wont change bot's status if another instance of the bot is running. It will only not make bot's status online.
 In "Token" you can either write the token or leave it blank (default) if you don't want to write the token inside the file you can write it when the bot starts up however, you will have to paste in terminal everytime you start the bot

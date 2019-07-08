@@ -2,39 +2,30 @@ import json
 import discord
 from discord.ext import commands
 from extras.help import HelpCommand
+from configparser import ConfigParser
 
 
 extensions = ['exploit', 'admin_ext', 'error_handler']
+
+parser = ConfigParser()
+parser.read('config.ini')
 
 
 class FileError(Exception):
     pass
 
 
-with open('config.json') as file:
-    config = json.load(file)
-
 with open(r'extras\Guilds_Icon.png', 'rb') as image:
     icon = image.read()
 
-user_exploits = config.get('exploit_users', None)
-cooldown_bypass = config.get('cooldown_bypass', None)
-offline_mode = config.get('offline_mode', None)
-token = config.get('token', None)
+user_exploits = [parser.getint('Users', name) for name in parser.options('Users')]
+cooldown_bypass = parser.getboolean('Options', 'CooldownBypass', fallback=False)
+offline_mode = parser.getboolean('Options', 'OfflineMode', fallback=False)
+token = parser.get('Options', 'Token', fallback=None)
 
-if None in [user_exploits, cooldown_bypass, offline_mode, token]:
-    raise FileError('config.json syntax is wrong.')
+if not user_exploits:
+    raise FileError('You need to provide one User ID at least so bot can be useful.')
 
-if not all(isinstance(x, int) for x in user_exploits):
-    raise FileError('IDs must be numbers only.')
-
-if not all(isinstance(x, bool) for x in [cooldown_bypass, offline_mode]):
-    raise FileError(
-        'cooldown_bypass and offline_mode can either be true or false (lower case letters)')
-
-if len(user_exploits) < 1:
-    raise FileError(
-        'You need to provide one ID at least so bot can be useful.')
 
 status = discord.Status.invisible if offline_mode else None
 
@@ -103,3 +94,4 @@ if __name__ == "__main__":
         client.run(token)
     except Exception as error:
         print(f'\n{error}')
+

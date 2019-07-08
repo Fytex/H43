@@ -50,7 +50,7 @@ website: ```https://discordapp.com/developers/applications/```
 
 II. **Open config.ini and edit** (Maybe notepadd++)
 
-```In "Users" you can add as many as you want following the same format written. (Note: Name doesn't matter only ID next to it). These exploit_users are the users that have acess to your bot's commands. Note: You need to enable Developer mode!```
+```In "Users" you can add as many as you want following the same format written. (Note: Name doesn't matter only ID next to it). These exploit_users are the users that have acess to your bot's commands. Note: You need to enable Developer mode to get users' ID!```
 
 ```In "CooldownBypass" you can either set true or false. There is a cooldown in each command so you don't abuse them thinking it didn't work. If you want u can replace the false by true anytime you want.```
 

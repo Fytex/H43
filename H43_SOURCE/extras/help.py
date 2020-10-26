@@ -3,7 +3,7 @@ from discord.ext import commands
 
 bot_creator_id = 321346463148015626
 art_creator_id = 253679155651018764
-paypal_link = 'https://paypal.me/h43'
+paypal_link = 'https://www.paypal.com/paypalme/fytex'
 github_link = 'https://github.com/Fytex/H43'
 discord_link = 'https://discord.gg/hNGAWVH'
 

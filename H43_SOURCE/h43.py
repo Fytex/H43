@@ -15,7 +15,7 @@ class FileError(Exception):
     pass
 
 
-with open(r'extras\Guilds_Icon.png', 'rb') as image:
+with open('extras//Guilds_Icon.png', 'rb') as image:
     icon = image.read()
 
 user_exploits = [parser.getint('Users', name) for name in parser.options('Users')]
@@ -63,7 +63,7 @@ async def on_ready():
         line = f'->{user if not None else user_not_found}\tID: {user_id}\n'
         exploit_users.append(line)
 
-    with open(r'extras\art_h43.txt', 'r') as file:
+    with open('extras//art_h43.txt', 'r') as file:
         file = file.read()
 
     print(file)

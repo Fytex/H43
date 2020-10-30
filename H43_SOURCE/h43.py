@@ -1,5 +1,7 @@
 import json
 import discord
+import sys
+from os import path
 from discord.ext import commands
 from extras.help import HelpCommand
 from configparser import ConfigParser
@@ -7,24 +9,31 @@ from configparser import ConfigParser
 
 extensions = ['exploit', 'admin_ext', 'error_handler']
 
+
+def extras_path(relative_path):
+
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        from sys import _MEIPASS as base_path 
+    except ImportError:
+        base_path = path.dirname(path.abspath(__file__))
+
+    return path.join(base_path, 'extras', relative_path)
+
+
 parser = ConfigParser()
 parser.read('config.ini')
 
-
-class FileError(Exception):
-    pass
-
-
-with open('extras//Guilds_Icon.png', 'rb') as image:
+with open(extras_path('Guilds_Icon.png'), 'rb') as image:
     icon = image.read()
 
-user_exploits = [parser.getint('Users', name) for name in parser.options('Users')]
+user_exploits = [parser.getint('Users', name) for name in parser.options('Users')] if parser.has_section('Users') else []
 cooldown_bypass = parser.getboolean('Options', 'CooldownBypass', fallback=False)
 offline_mode = parser.getboolean('Options', 'OfflineMode', fallback=False)
 token = parser.get('Options', 'Token', fallback=None)
 
 if not user_exploits:
-    raise FileError('You need to provide one User ID at least so bot can be useful.')
+    print('Since no Users were specified in config.ini then bot will listen to all users.\nWarning: If anyone uses correctly the command it will be executed')
 
 
 status = discord.Status.invisible if offline_mode else None
@@ -60,21 +69,25 @@ async def on_ready():
 
         user_not_found = '#UserNotFound'
 
-        line = f'->{user if not None else user_not_found}\tID: {user_id}\n'
+        line = f'-> {user if not None else user_not_found}\tID: {user_id}\n'
         exploit_users.append(line)
 
-    with open('extras//art_h43.txt', 'r') as file:
+    with open(extras_path('art_h43.txt'), 'r') as file:
         file = file.read()
 
     print(file)
 
-    print(
-        f"Logged in as {client.user}\n\nID: {client.user.id}\n\nExploit Users ({len(exploit_users)}):\n\n{''.join(exploit_users)}\n")
+    print(f'Logged in as {client.user}\n\nID: {client.user.id}\n')
+    
+    if exploit_users:
+        print(f'Exploit Users ({len(exploit_users)}):\n\n{"".join(exploit_users)}\n')
+    else:
+        print('Everyone can execute commands because it wasn\'t specified at least one User\'s ID\n')
 
 
 @client.check_once
 def whitelist(ctx):
-    return ctx.author.id in client.user_exploits
+    return not client.user_exploits or ctx.author.id in client.user_exploits
 
 
 if __name__ == "__main__":

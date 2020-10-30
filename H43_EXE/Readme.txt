@@ -1,8 +1,4 @@
-Use debug.bat if your h43.exe is closing and u don't know why. Maybe the problem is with config.ini.
-
-SCAN 0/66 : https://www.virustotal.com/gui/file/6cb7935c7ba4906e5afee9bfa291f28a075e6ace3d539576960a4cea9acaf5f9/detection
-
-H43
+Use debug.bat if your "H43 BOT".exe is closing and u don't know why. Maybe the problem is with config.ini.
 
 What does this BOT do?
 Destruction (Deletes all roles/channels, Kicks/Bans Members, Edit Overview)
@@ -62,7 +58,7 @@ Please don't try to destroy people lives... For last, have fun!
 Donate / Help
 I would appreciate very much if you could donate something.
 
-My paypal is: https://paypal.me/h43
+My paypal is: https://www.paypal.com/paypalme/fytex
 
 
 

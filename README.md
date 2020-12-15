@@ -1,6 +1,8 @@
 ## Download
 For those who don't know where the download is [Click Here](https://github.com/Fytex/H43/archive/master.zip)
 
+Appreciate if you could help by leaving a big STAR ;)
+
 ## H43
 
 I started this project back in 2018 (didn't change much since then xD, not enough time for it) thinking about fun tools to prank my friends and as a way to gain more experience.

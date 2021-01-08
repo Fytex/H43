@@ -13,6 +13,7 @@ a = Analysis(['h43.py'],
 				(path_join('extras', 'art_h43.txt'), 'extras')
 				],
              hiddenimports=[
+		     		'discord',
 				'cogs.exploit',
 				'cogs.admin_ext',
 				'cogs.error_handler'

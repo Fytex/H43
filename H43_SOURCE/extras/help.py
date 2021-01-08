@@ -1,6 +1,12 @@
 import discord
 from discord.ext import commands
 
+
+'''
+This code is open source and free to use as long as these global variables aren't modiefied nor the code that uses them.
+This prevents people from false claiming the project either for monetary prupose or any other reason.
+(c) 2021, Fytex - https://github.com/Fytex
+'''
 bot_creator_id = 321346463148015626
 art_creator_id = 253679155651018764
 paypal_link = 'https://www.paypal.com/paypalme/fytex'

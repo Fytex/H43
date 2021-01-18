@@ -101,7 +101,7 @@ if __name__ == "__main__":
             print(f"Extension executed: {extension}")
 
     if not token:
-        token = input('Introduza a Token: ').strip("'")
+        token = input('Insert the Token: ').strip("'")
 
     try:
         client.run(token)

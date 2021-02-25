@@ -3,8 +3,10 @@
 
 **Install dependencies**
 
-```Run this command in terminal (e.g CMD): pip3 install -U discord.py            (if no pip3 then try only pip)```
-```If error shows up try: python -m pip install -U discord.py```
+```Run this command in terminal (e.g CMD): pip3 install -U discord.py==1.5.0            (if no pip3 then try only pip)```
+
+```If error shows up try: python -m pip install -U discord.py==1.5.0```
+
 ```If still shows the same error ('command not recognized') u need to add python as a system variable and try again```
 
 Then to execute the script:

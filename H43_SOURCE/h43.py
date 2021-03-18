@@ -14,7 +14,7 @@ def extras_path(relative_path):
 
     try:
         # PyInstaller creates a temp folder and stores path in _MEIPASS
-        from sys import _MEIPASS as base_path 
+        from sys import _MEIPASS as base_path
     except ImportError:
         base_path = path.dirname(path.abspath(__file__))
 
@@ -41,9 +41,12 @@ status = discord.Status.invisible if offline_mode else None
 
 class Bot(commands.Bot):
     def __init__(self, **kwargs):
+        intents = discord.Intents.all()
+
         super().__init__(
             command_prefix="H43?",
             case_insensitive=True,
+            intents=intents,
             **kwargs
         )
         self.help_command = HelpCommand()
@@ -78,7 +81,7 @@ async def on_ready():
     print(file)
 
     print(f'Logged in as {client.user}\n\nID: {client.user.id}\n')
-    
+
     if exploit_users:
         print(f'Exploit Users ({len(exploit_users)}):\n\n{"".join(exploit_users)}\n')
     else:
@@ -107,4 +110,3 @@ if __name__ == "__main__":
         client.run(token)
     except Exception as error:
         print(f'\n{error}')
-

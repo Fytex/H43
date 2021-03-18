@@ -48,7 +48,11 @@ If you are on windows you can use H43_EXE instead of the source. But don't forge
 
 I. **Create a Discord Bot**
 
-```Acess ```[this website](https://discordapp.com/developers/applications/)```, create a Discord Bot and copy the Token given```
+```1. Acess ```[this website](https://discordapp.com/developers/applications/)```
+   2. Create an Application
+   3. Add a Discord Bot to the Application
+   4. Enable both Privileged Gateway Intents (PRESENCE INTENT and SERVER MEMBERS INTENT)
+   5. Finally, copy the TOKEN.```
 
 website: ```https://discordapp.com/developers/applications/```
 

@@ -42,6 +42,12 @@ Give yourself the best role (Maybe administrator)
 Remove all possible roles (permissions) form a member in a server
 
 
+# Japanese Translation
+[H43 Japanese - Click Here](https://github.com/Alicelond-Developer/H43-Japanese-translation-Ver.-)
+
+Credits: Alicelond-Developer
+
+
 # Steps
 
 If you are on windows you can use H43_EXE instead of the source. But don't forget to read all of this or you will be lost.
